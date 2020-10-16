@@ -1,0 +1,41 @@
+/* 医生和用药提醒 */
+table {
+    width: 100%;
+}
+#myDoctor, .medicationReminder{
+    overflow: hidden;
+}
+#myDoctor > p, .medicationReminder > p{
+    padding: 0;
+}
+.doctorInfor, .medicationReminder > div {
+    clear: both;
+    background-color: white;
+    min-height: 100px;
+}
+.medicationReminder > p{
+    float: left;
+    margin: 0 10px 10px;
+}
+.medicationReminder > div {
+    margin: 0 10px;
+}
+#myDoctor > p {
+    margin: 10px;
+}
+.doctorInfor {
+    clear: both;
+    margin: 0 10px;
+}
+.doctorInfor > div:first-child {
+    margin-left: 10px;
+}
+.doctorInfor > div:nth-child(2){
+    margin-top: 10px;
+}
+.doctorInfor > div > .van-row:first-child {
+    padding-top: 10px;
+}
+.doctorInfor > div > .van-row:not(:first-child) {
+    padding-top: 5px;
+}

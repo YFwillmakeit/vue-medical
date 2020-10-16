@@ -1,0 +1,16 @@
+.Activity > p {
+    /* margin-left: 20px; */
+    margin: 15px 0 10px 20px;
+    font-size: 0.6em;
+    color: rgb(2,167,240);
+}
+.Activity .van-cell{
+    font-size: 0.7em;
+    padding: 10px;
+}
+.Activity .van-cell__title{
+    width: 80%;
+}
+.Activity .van-cell__value{
+    width: 20%;
+}
